@@ -10,6 +10,12 @@
 server:
   port: 8058
 
+
+
+spring:
+  application:
+    name: eurekaService
+
 #security:
 #  basic:
 #    enabled: true
@@ -26,7 +32,7 @@ server:
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://59.107.26.181:8058/eureka/
+      defaultZone: http://localhost:8058/eureka/
