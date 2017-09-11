@@ -14,7 +14,7 @@ server:
 
 spring:
   application:
-    name: eurekaService
+    name: eureka-Service
 
 #security:
 #  basic:
