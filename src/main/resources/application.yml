@@ -10,6 +10,13 @@
 server:
   port: 8058
 
+security:
+  basic:
+    enabled: true
+  user:
+    name: jeff
+    password: jeff
+
 eureka:
   client:
     register-with-eureka: false #表示是否将自身注册到 Eureka Server，默认为 true
@@ -17,9 +24,3 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka #设置与 Eureka Server 交互的地址，查询与注册服务都依赖与此地址
 
-security:
-  basic:
-    enabled: true
-  user:
-    name: jeff
-    password: jeff
