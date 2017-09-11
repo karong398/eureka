@@ -22,4 +22,4 @@ eureka:
     register-with-eureka: false #表示是否将自身注册到 Eureka Server，默认为 true
     fetch-registry: false #表示是否从 Eureka Server 获取注册信息
     service-url:
-      default-zone: http://59.107.26.181:8058/eureka #设置与 Eureka Server 交互的地址，查询与注册服务都依赖与此地址
+      default-zone: http://59.107.26.181:8058 #设置与 Eureka Server 交互的地址，查询与注册服务都依赖与此地址
