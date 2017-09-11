@@ -10,6 +10,13 @@
 server:
   port: 8058
 
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: jeff
+#    password: jeff
+
 eureka:
   client:
     register-with-eureka: false #表示是否将自身注册到 Eureka Server，默认为 true
