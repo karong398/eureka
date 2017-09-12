@@ -10,8 +10,6 @@
 server:
   port: 8058
 
-
-
 spring:
   application:
     name: eureka-Service
