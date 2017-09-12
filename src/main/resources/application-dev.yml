@@ -35,6 +35,5 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://59.127.26.181:8058/eureka/
-  instance:
-      perferIpAddress: true
+      defaultZone: http://localhost:8058/eureka/
+
