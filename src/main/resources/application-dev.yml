@@ -28,6 +28,7 @@ spring:
 #    service-url:
 #      default-zone: http://127.0.0.1:8058/eureka/ #设置与 Eureka Server 交互的地址，查询与注册服务都依赖与此地址
 
+
 eureka:
   client:
     registerWithEureka: true
